@@ -38,12 +38,12 @@ extern OSPI_HandleTypeDef hospi1;
 #define W25QXX 1
 #if W25QXX
 #define OSPI_W25Qxx_OK 0             // W25Qxx通信正常
-#define W25Qxx_ERROR_INIT -1         // 初始化错误
-#define W25Qxx_ERROR_WriteEnable -2  // 写使能错误
-#define W25Qxx_ERROR_AUTOPOLLING -3  // 轮询等待错误，无响应
-#define W25Qxx_ERROR_Erase -4        // 擦除错误
-#define W25Qxx_ERROR_TRANSMIT -5     // 传输错误
-#define W25Qxx_ERROR_MemoryMapped -6 // 内存映射模式错误
+#define W25Qxx_ERROR_INIT 1         // 初始化错误
+#define W25Qxx_ERROR_WriteEnable 2  // 写使能错误
+#define W25Qxx_ERROR_AUTOPOLLING 3  // 轮询等待错误，无响应
+#define W25Qxx_ERROR_Erase 4        // 擦除错误
+#define W25Qxx_ERROR_TRANSMIT 5     // 传输错误
+#define W25Qxx_ERROR_MemoryMapped 6 // 内存映射模式错误
 
 #define W25Qxx_CMD_EnableReset 0x66 // 使能复位
 #define W25Qxx_CMD_ResetDevice 0x99 // 复位器件
@@ -76,20 +76,20 @@ extern OSPI_HandleTypeDef hospi1;
 void MX_OCTOSPI1_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-    int8_t OSPI_W25Qxx_Init(void);     // W25Qxx初始化
+    uint8_t OSPI_W25Qxx_Init(void);     // W25Qxx初始化
     uint32_t OSPI_W25Qxx_ReadID(void); // 读取器件ID
 
-    int8_t OSPI_W25Qxx_MemoryMappedMode(void); // 将OSPI设置为内存映射模式
+    uint8_t OSPI_W25Qxx_MemoryMappedMode(void); // 将OSPI设置为内存映射模式
 
-    int8_t OSPI_W25Qxx_SectorErase(uint32_t SectorAddress);    // 扇区擦除，4K字节， 参考擦除时间 45ms
-    int8_t OSPI_W25Qxx_BlockErase_32K(uint32_t SectorAddress); // 块擦除，  32K字节，参考擦除时间 120ms
-    int8_t OSPI_W25Qxx_BlockErase_64K(uint32_t SectorAddress); // 块擦除，  64K字节，参考擦除时间 150ms，实际建议使用64K擦除，擦除的时间最快
-    int8_t OSPI_W25Qxx_ChipErase(void);                        // 整片擦除，参考擦除时间 20S
+    uint8_t OSPI_W25Qxx_SectorErase(uint32_t SectorAddress);    // 扇区擦除，4K字节， 参考擦除时间 45ms
+    uint8_t OSPI_W25Qxx_BlockErase_32K(uint32_t SectorAddress); // 块擦除，  32K字节，参考擦除时间 120ms
+    uint8_t OSPI_W25Qxx_BlockErase_64K(uint32_t SectorAddress); // 块擦除，  64K字节，参考擦除时间 150ms，实际建议使用64K擦除，擦除的时间最快
+    uint8_t OSPI_W25Qxx_ChipErase(void);                        // 整片擦除，参考擦除时间 20S
 
-    int8_t OSPI_W25Qxx_WritePage(uint8_t* pBuffer, uint32_t WriteAddr, uint16_t NumByteToWrite); // 按页写入，最大256字节
-    int8_t OSPI_W25Qxx_WriteBuffer(uint8_t* pBuffer, uint32_t WriteAddr, uint32_t Size);         // 写入数据，最大不能超过flash芯片的大小
-    int8_t OSPI_W25Qxx_ReadBuffer(uint8_t* pBuffer, uint32_t ReadAddr, uint32_t NumByteToRead);  // 读取数据，最大不能超过flash芯片的大小
-    int8_t OSPI_W25Qxx_Test(void); // Flash读写测试
+    uint8_t OSPI_W25Qxx_WritePage(uint8_t* pBuffer, uint32_t WriteAddr, uint16_t NumByteToWrite); // 按页写入，最大256字节
+    uint8_t OSPI_W25Qxx_WriteBuffer(uint8_t* pBuffer, uint32_t WriteAddr, uint32_t Size);         // 写入数据，最大不能超过flash芯片的大小
+    uint8_t OSPI_W25Qxx_ReadBuffer(uint8_t* pBuffer, uint32_t ReadAddr, uint32_t NumByteToRead);  // 读取数据，最大不能超过flash芯片的大小
+    uint8_t OSPI_W25Qxx_Test(void); // Flash读写测试
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

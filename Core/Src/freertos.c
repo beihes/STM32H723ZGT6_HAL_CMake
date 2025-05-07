@@ -15,9 +15,9 @@
   *
   ******************************************************************************
   */
-  /* USER CODE END Header */
+/* USER CODE END Header */
 
-  /* Includes ------------------------------------------------------------------*/
+/* Includes ------------------------------------------------------------------*/
 #include "FreeRTOS.h"
 #include "task.h"
 #include "main.h"
@@ -59,14 +59,14 @@ osThreadId_t ledTaskHandle;
 const osThreadAttr_t ledTask_attributes = {
   .name = "ledTask",
   .stack_size = 128 * 4,
-  .priority = (osPriority_t)osPriorityNormal1,
+  .priority = (osPriority_t) osPriorityNormal1,
 };
 /* Definitions for lcdTask */
 osThreadId_t lcdTaskHandle;
 const osThreadAttr_t lcdTask_attributes = {
   .name = "lcdTask",
   .stack_size = 128 * 4,
-  .priority = (osPriority_t)osPriorityLow,
+  .priority = (osPriority_t) osPriorityLow,
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -74,8 +74,8 @@ const osThreadAttr_t lcdTask_attributes = {
 
 /* USER CODE END FunctionPrototypes */
 
-void StartLED_Task(void* argument);
-void StartLCD_Task(void* argument);
+void StartLED_Task(void *argument);
+void StartLCD_Task(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -84,9 +84,8 @@ void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
   * @param  None
   * @retval None
   */
-void MX_FREERTOS_Init(void)
-{
-    /* USER CODE BEGIN Init */
+void MX_FREERTOS_Init(void) {
+  /* USER CODE BEGIN Init */
     HAL_DTS_Start(&hdts);                                  // HAL的DTS初始化
     rtcDate = Get_Build_Date();
     rtcTime = Get_Build_TIME();
@@ -97,38 +96,38 @@ void MX_FREERTOS_Init(void)
         }
     }
     SPI_LCD_Init();
-    /* USER CODE END Init */
+  /* USER CODE END Init */
 
-    /* USER CODE BEGIN RTOS_MUTEX */
+  /* USER CODE BEGIN RTOS_MUTEX */
         /* add mutexes, ... */
-    /* USER CODE END RTOS_MUTEX */
+  /* USER CODE END RTOS_MUTEX */
 
-    /* USER CODE BEGIN RTOS_SEMAPHORES */
+  /* USER CODE BEGIN RTOS_SEMAPHORES */
         /* add semaphores, ... */
-    /* USER CODE END RTOS_SEMAPHORES */
+  /* USER CODE END RTOS_SEMAPHORES */
 
-    /* USER CODE BEGIN RTOS_TIMERS */
+  /* USER CODE BEGIN RTOS_TIMERS */
         /* start timers, add new ones, ... */
-    /* USER CODE END RTOS_TIMERS */
+  /* USER CODE END RTOS_TIMERS */
 
-    /* USER CODE BEGIN RTOS_QUEUES */
+  /* USER CODE BEGIN RTOS_QUEUES */
         /* add queues, ... */
-    /* USER CODE END RTOS_QUEUES */
+  /* USER CODE END RTOS_QUEUES */
 
-    /* Create the thread(s) */
-    /* creation of ledTask */
-    ledTaskHandle = osThreadNew(StartLED_Task, NULL, &ledTask_attributes);
+  /* Create the thread(s) */
+  /* creation of ledTask */
+  ledTaskHandle = osThreadNew(StartLED_Task, NULL, &ledTask_attributes);
 
-    /* creation of lcdTask */
-    lcdTaskHandle = osThreadNew(StartLCD_Task, NULL, &lcdTask_attributes);
+  /* creation of lcdTask */
+  lcdTaskHandle = osThreadNew(StartLCD_Task, NULL, &lcdTask_attributes);
 
-    /* USER CODE BEGIN RTOS_THREADS */
+  /* USER CODE BEGIN RTOS_THREADS */
         /* add threads, ... */
-    /* USER CODE END RTOS_THREADS */
+  /* USER CODE END RTOS_THREADS */
 
-    /* USER CODE BEGIN RTOS_EVENTS */
+  /* USER CODE BEGIN RTOS_EVENTS */
         /* add events, ... */
-    /* USER CODE END RTOS_EVENTS */
+  /* USER CODE END RTOS_EVENTS */
 
 }
 
@@ -138,10 +137,10 @@ void MX_FREERTOS_Init(void)
   * @param  argument: Not used
   * @retval None
   */
-  /* USER CODE END Header_StartLED_Task */
-void StartLED_Task(void* argument)
+/* USER CODE END Header_StartLED_Task */
+void StartLED_Task(void *argument)
 {
-    /* USER CODE BEGIN StartLED_Task */
+  /* USER CODE BEGIN StartLED_Task */
         /* Infinite loop */
     for (;;) {
         HAL_GPIO_WritePin(GPIOG, GPIO_PIN_7, GPIO_PIN_RESET);
@@ -153,7 +152,7 @@ void StartLED_Task(void* argument)
         HAL_RTC_GetDate(&hrtc, &rtcDate, RTC_FORMAT_BIN);
         HAL_DTS_GetTemperature(&hdts, &temperature);
     }
-    /* USER CODE END StartLED_Task */
+  /* USER CODE END StartLED_Task */
 }
 
 /* USER CODE BEGIN Header_StartLCD_Task */
@@ -163,9 +162,9 @@ void StartLED_Task(void* argument)
 * @retval None
 */
 /* USER CODE END Header_StartLCD_Task */
-void StartLCD_Task(void* argument)
+void StartLCD_Task(void *argument)
 {
-    /* USER CODE BEGIN StartLCD_Task */
+  /* USER CODE BEGIN StartLCD_Task */
       /* Infinite loop */
     LCD_SetAsciiFont(&ASCII_Font12);
     for (;;) {
@@ -173,7 +172,7 @@ void StartLCD_Task(void* argument)
         SPILCD_Printf(10, 30, "temp:%09ld", temperature);
         osDelay(1);
     }
-    /* USER CODE END StartLCD_Task */
+  /* USER CODE END StartLCD_Task */
 }
 
 /* Private application code --------------------------------------------------*/

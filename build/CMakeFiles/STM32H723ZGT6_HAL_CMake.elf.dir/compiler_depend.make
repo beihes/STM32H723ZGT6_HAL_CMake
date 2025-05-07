@@ -548,9 +548,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Core/Src/main.c.obj: D:/MyCode/VSCode
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/App/fatfs.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/sd_diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/user_diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.h \
@@ -3468,16 +3466,22 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm3
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/App/fatfs.c \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/_ansi.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/alloca.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/assert.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/math.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/newlib-nano/newlib.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/reent.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdint.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdio.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdlib.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/string.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/strings.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_locale.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h \
@@ -3486,12 +3490,15 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj: D:/MyCode/VSCo
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/stdio.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/string.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/FreeRTOSConfig.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/main.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/usart.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
@@ -3534,165 +3541,8 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj: D:/MyCode/VSCo
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/App/fatfs.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/sd_diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/user_diskio.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/integer.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
-
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.c \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/_ansi.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/assert.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/math.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/newlib-nano/newlib.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdint.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/config.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/features.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/stm32h7xx_hal_conf.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/cmsis_compiler.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/cmsis_gcc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/cmsis_version.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/core_cm7.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/mpu_armv7.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dts.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rtc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rtc_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h
-
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/sd_diskio.c \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/_ansi.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/assert.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/math.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/newlib-nano/newlib.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/reent.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdint.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdio.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/string.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/strings.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_locale.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_stdint.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_types.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/cdefs.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/config.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/features.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/lock.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/reent.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/stdio.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/string.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
-  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/FreeRTOSConfig.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/main.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/stm32h7xx_hal_conf.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/cmsis_compiler.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/cmsis_gcc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/cmsis_version.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/core_cm7.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Include/mpu_armv7.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dts.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rtc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rtc_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/sd_diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.h \
@@ -3711,15 +3561,18 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj: D:/MyCo
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/user_diskio.c \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/_ansi.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/alloca.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/assert.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/_default_types.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/_types.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/machine/stdlib.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/math.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/newlib-nano/newlib.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/reent.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdint.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdio.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/stdlib.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/string.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/strings.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/_intsup.h \
@@ -3734,11 +3587,14 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj: D:/My
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/stdio.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/arm-none-eabi/include/sys/string.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2\ rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/FreeRTOSConfig.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/main.h \
+  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/octospi.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/stm32h7xx_hal_conf.h \
+  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Core/Inc/usart.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
@@ -3780,7 +3636,6 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj: D:/My
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.h \
@@ -3865,7 +3720,6 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/dis
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.h \
@@ -3950,7 +3804,6 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.h \
@@ -4034,7 +3887,6 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.h \
@@ -4121,7 +3973,6 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/opt
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
@@ -4204,7 +4055,6 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/opt
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
-  D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
   D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
@@ -4754,8 +4604,6 @@ D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_H
 
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd.h:
 
-D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.h:
-
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h:
 
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h:
@@ -4888,8 +4736,6 @@ D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/App/fatfs.h:
 
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/ffconf.h:
 
-D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/sd_diskio.h:
-
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/user_diskio.h:
 
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.h:
@@ -4987,10 +4833,6 @@ D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_H
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c:
 
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/App/fatfs.c:
-
-D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.c:
-
-D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/sd_diskio.c:
 
 D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/user_diskio.c:
 

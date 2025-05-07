@@ -1432,54 +1432,6 @@ FATFS/App/fatfs.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\build.make CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.s
 .PHONY : FATFS/App/fatfs.c.s
 
-FATFS/Target/bsp_driver_sd.obj: FATFS/Target/bsp_driver_sd.c.obj
-.PHONY : FATFS/Target/bsp_driver_sd.obj
-
-# target to build an object file
-FATFS/Target/bsp_driver_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\build.make CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
-.PHONY : FATFS/Target/bsp_driver_sd.c.obj
-
-FATFS/Target/bsp_driver_sd.i: FATFS/Target/bsp_driver_sd.c.i
-.PHONY : FATFS/Target/bsp_driver_sd.i
-
-# target to preprocess a source file
-FATFS/Target/bsp_driver_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\build.make CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.i
-.PHONY : FATFS/Target/bsp_driver_sd.c.i
-
-FATFS/Target/bsp_driver_sd.s: FATFS/Target/bsp_driver_sd.c.s
-.PHONY : FATFS/Target/bsp_driver_sd.s
-
-# target to generate assembly for a file
-FATFS/Target/bsp_driver_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\build.make CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.s
-.PHONY : FATFS/Target/bsp_driver_sd.c.s
-
-FATFS/Target/sd_diskio.obj: FATFS/Target/sd_diskio.c.obj
-.PHONY : FATFS/Target/sd_diskio.obj
-
-# target to build an object file
-FATFS/Target/sd_diskio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\build.make CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj
-.PHONY : FATFS/Target/sd_diskio.c.obj
-
-FATFS/Target/sd_diskio.i: FATFS/Target/sd_diskio.c.i
-.PHONY : FATFS/Target/sd_diskio.i
-
-# target to preprocess a source file
-FATFS/Target/sd_diskio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\build.make CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.i
-.PHONY : FATFS/Target/sd_diskio.c.i
-
-FATFS/Target/sd_diskio.s: FATFS/Target/sd_diskio.c.s
-.PHONY : FATFS/Target/sd_diskio.s
-
-# target to generate assembly for a file
-FATFS/Target/sd_diskio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\build.make CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.s
-.PHONY : FATFS/Target/sd_diskio.c.s
-
 FATFS/Target/user_diskio.obj: FATFS/Target/user_diskio.c.obj
 .PHONY : FATFS/Target/user_diskio.obj
 
@@ -2036,12 +1988,6 @@ help:
 	@echo ... FATFS/App/fatfs.obj
 	@echo ... FATFS/App/fatfs.i
 	@echo ... FATFS/App/fatfs.s
-	@echo ... FATFS/Target/bsp_driver_sd.obj
-	@echo ... FATFS/Target/bsp_driver_sd.i
-	@echo ... FATFS/Target/bsp_driver_sd.s
-	@echo ... FATFS/Target/sd_diskio.obj
-	@echo ... FATFS/Target/sd_diskio.i
-	@echo ... FATFS/Target/sd_diskio.s
 	@echo ... FATFS/Target/user_diskio.obj
 	@echo ... FATFS/Target/user_diskio.i
 	@echo ... FATFS/Target/user_diskio.s

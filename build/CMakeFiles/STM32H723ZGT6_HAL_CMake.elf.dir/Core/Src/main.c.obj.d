@@ -86,14 +86,10 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Core/Src/main.c.obj: \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src/ff.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src/integer.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target/ffconf.h \
- D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target/bsp_driver_sd.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src/ff_gen_drv.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src/diskio.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src/ff.h \
- D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target/sd_diskio.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target/user_diskio.h \
- D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/memorymap.h \
- D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/octospi.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/usart.h \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/stdlib.h \
@@ -103,6 +99,9 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Core/Src/main.c.obj: \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/sys/_locale.h \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/strings.h \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/sys/string.h \
+ D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/memorymap.h \
+ D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/octospi.h \
+ D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/usart.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/rtc.h \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/time.h \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/machine/time.h \
@@ -119,5 +118,4 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Core/Src/main.c.obj: \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/machine/types.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/sdmmc.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/spi.h \
- D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/usart.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/gpio.h

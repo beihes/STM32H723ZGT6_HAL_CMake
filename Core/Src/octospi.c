@@ -16,8 +16,8 @@
   *
   ******************************************************************************
   */
-/* USER CODE END Header */
-/* Includes ------------------------------------------------------------------*/
+  /* USER CODE END Header */
+  /* Includes ------------------------------------------------------------------*/
 #include "octospi.h"
 
 /* USER CODE BEGIN 0 */
@@ -30,138 +30,133 @@ OSPI_HandleTypeDef hospi1;
 void MX_OCTOSPI1_Init(void)
 {
 
-  /* USER CODE BEGIN OCTOSPI1_Init 0 */
+    /* USER CODE BEGIN OCTOSPI1_Init 0 */
 
-  /* USER CODE END OCTOSPI1_Init 0 */
+    /* USER CODE END OCTOSPI1_Init 0 */
 
-  OSPIM_CfgTypeDef sOspiManagerCfg = {0};
+    OSPIM_CfgTypeDef sOspiManagerCfg = { 0 };
 
-  /* USER CODE BEGIN OCTOSPI1_Init 1 */
+    /* USER CODE BEGIN OCTOSPI1_Init 1 */
 
-  /* USER CODE END OCTOSPI1_Init 1 */
-  hospi1.Instance = OCTOSPI1;
-  hospi1.Init.FifoThreshold = 8;
-  hospi1.Init.DualQuad = HAL_OSPI_DUALQUAD_DISABLE;
-  hospi1.Init.MemoryType = HAL_OSPI_MEMTYPE_MICRON;
-  hospi1.Init.DeviceSize = 32;
-  hospi1.Init.ChipSelectHighTime = 1;
-  hospi1.Init.FreeRunningClock = HAL_OSPI_FREERUNCLK_DISABLE;
-  hospi1.Init.ClockMode = HAL_OSPI_CLOCK_MODE_3;
-  hospi1.Init.WrapSize = HAL_OSPI_WRAP_NOT_SUPPORTED;
-  hospi1.Init.ClockPrescaler = 2;
-  hospi1.Init.SampleShifting = HAL_OSPI_SAMPLE_SHIFTING_HALFCYCLE;
-  hospi1.Init.DelayHoldQuarterCycle = HAL_OSPI_DHQC_DISABLE;
-  hospi1.Init.ChipSelectBoundary = 0;
-  hospi1.Init.DelayBlockBypass = HAL_OSPI_DELAY_BLOCK_BYPASSED;
-  hospi1.Init.MaxTran = 0;
-  hospi1.Init.Refresh = 0;
-  if (HAL_OSPI_Init(&hospi1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sOspiManagerCfg.ClkPort = 1;
-  sOspiManagerCfg.NCSPort = 1;
-  sOspiManagerCfg.IOLowPort = HAL_OSPIM_IOPORT_1_LOW;
-  if (HAL_OSPIM_Config(&hospi1, &sOspiManagerCfg, HAL_OSPI_TIMEOUT_DEFAULT_VALUE) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN OCTOSPI1_Init 2 */
+    /* USER CODE END OCTOSPI1_Init 1 */
+    hospi1.Instance = OCTOSPI1;
+    hospi1.Init.FifoThreshold = 8;
+    hospi1.Init.DualQuad = HAL_OSPI_DUALQUAD_DISABLE;
+    hospi1.Init.MemoryType = HAL_OSPI_MEMTYPE_MICRON;
+    hospi1.Init.DeviceSize = 32;
+    hospi1.Init.ChipSelectHighTime = 1;
+    hospi1.Init.FreeRunningClock = HAL_OSPI_FREERUNCLK_DISABLE;
+    hospi1.Init.ClockMode = HAL_OSPI_CLOCK_MODE_3;
+    hospi1.Init.WrapSize = HAL_OSPI_WRAP_NOT_SUPPORTED;
+    hospi1.Init.ClockPrescaler = 2;
+    hospi1.Init.SampleShifting = HAL_OSPI_SAMPLE_SHIFTING_HALFCYCLE;
+    hospi1.Init.DelayHoldQuarterCycle = HAL_OSPI_DHQC_DISABLE;
+    hospi1.Init.ChipSelectBoundary = 0;
+    hospi1.Init.DelayBlockBypass = HAL_OSPI_DELAY_BLOCK_BYPASSED;
+    hospi1.Init.MaxTran = 0;
+    hospi1.Init.Refresh = 0;
+    if (HAL_OSPI_Init(&hospi1) != HAL_OK) {
+        Error_Handler();
+    }
+    sOspiManagerCfg.ClkPort = 1;
+    sOspiManagerCfg.NCSPort = 1;
+    sOspiManagerCfg.IOLowPort = HAL_OSPIM_IOPORT_1_LOW;
+    if (HAL_OSPIM_Config(&hospi1, &sOspiManagerCfg, HAL_OSPI_TIMEOUT_DEFAULT_VALUE) != HAL_OK) {
+        Error_Handler();
+    }
+    /* USER CODE BEGIN OCTOSPI1_Init 2 */
 
-  /* USER CODE END OCTOSPI1_Init 2 */
+    /* USER CODE END OCTOSPI1_Init 2 */
 
 }
 
 void HAL_OSPI_MspInit(OSPI_HandleTypeDef* ospiHandle)
 {
 
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
-  RCC_PeriphCLKInitTypeDef PeriphClkInitStruct = {0};
-  if(ospiHandle->Instance==OCTOSPI1)
-  {
-  /* USER CODE BEGIN OCTOSPI1_MspInit 0 */
+    GPIO_InitTypeDef GPIO_InitStruct = { 0 };
+    RCC_PeriphCLKInitTypeDef PeriphClkInitStruct = { 0 };
+    if (ospiHandle->Instance == OCTOSPI1) {
+        /* USER CODE BEGIN OCTOSPI1_MspInit 0 */
 
-  /* USER CODE END OCTOSPI1_MspInit 0 */
+        /* USER CODE END OCTOSPI1_MspInit 0 */
 
-  /** Initializes the peripherals clock
-  */
-    PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_OSPI;
-    PeriphClkInitStruct.OspiClockSelection = RCC_OSPICLKSOURCE_D1HCLK;
-    if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
-    {
-      Error_Handler();
+        /** Initializes the peripherals clock
+        */
+        PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_OSPI;
+        PeriphClkInitStruct.OspiClockSelection = RCC_OSPICLKSOURCE_D1HCLK;
+        if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK) {
+            Error_Handler();
+        }
+
+        /* OCTOSPI1 clock enable */
+        __HAL_RCC_OCTOSPIM_CLK_ENABLE();
+        __HAL_RCC_OSPI1_CLK_ENABLE();
+
+        __HAL_RCC_GPIOF_CLK_ENABLE();
+        __HAL_RCC_GPIOG_CLK_ENABLE();
+        /**OCTOSPI1 GPIO Configuration
+        PF6     ------> OCTOSPIM_P1_IO3
+        PF7     ------> OCTOSPIM_P1_IO2
+        PF8     ------> OCTOSPIM_P1_IO0
+        PF9     ------> OCTOSPIM_P1_IO1
+        PF10     ------> OCTOSPIM_P1_CLK
+        PG6     ------> OCTOSPIM_P1_NCS
+        */
+        GPIO_InitStruct.Pin = GPIO_PIN_6 | GPIO_PIN_7 | GPIO_PIN_8 | GPIO_PIN_9;
+        GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+        GPIO_InitStruct.Pull = GPIO_NOPULL;
+        GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+        GPIO_InitStruct.Alternate = GPIO_AF10_OCTOSPIM_P1;
+        HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
+
+        GPIO_InitStruct.Pin = GPIO_PIN_10;
+        GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+        GPIO_InitStruct.Pull = GPIO_NOPULL;
+        GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+        GPIO_InitStruct.Alternate = GPIO_AF9_OCTOSPIM_P1;
+        HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
+
+        GPIO_InitStruct.Pin = GPIO_PIN_6;
+        GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+        GPIO_InitStruct.Pull = GPIO_NOPULL;
+        GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+        GPIO_InitStruct.Alternate = GPIO_AF10_OCTOSPIM_P1;
+        HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
+
+        /* USER CODE BEGIN OCTOSPI1_MspInit 1 */
+
+        /* USER CODE END OCTOSPI1_MspInit 1 */
     }
-
-    /* OCTOSPI1 clock enable */
-    __HAL_RCC_OCTOSPIM_CLK_ENABLE();
-    __HAL_RCC_OSPI1_CLK_ENABLE();
-
-    __HAL_RCC_GPIOF_CLK_ENABLE();
-    __HAL_RCC_GPIOG_CLK_ENABLE();
-    /**OCTOSPI1 GPIO Configuration
-    PF6     ------> OCTOSPIM_P1_IO3
-    PF7     ------> OCTOSPIM_P1_IO2
-    PF8     ------> OCTOSPIM_P1_IO0
-    PF9     ------> OCTOSPIM_P1_IO1
-    PF10     ------> OCTOSPIM_P1_CLK
-    PG6     ------> OCTOSPIM_P1_NCS
-    */
-    GPIO_InitStruct.Pin = GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-    GPIO_InitStruct.Alternate = GPIO_AF10_OCTOSPIM_P1;
-    HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
-
-    GPIO_InitStruct.Pin = GPIO_PIN_10;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-    GPIO_InitStruct.Alternate = GPIO_AF9_OCTOSPIM_P1;
-    HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
-
-    GPIO_InitStruct.Pin = GPIO_PIN_6;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-    GPIO_InitStruct.Alternate = GPIO_AF10_OCTOSPIM_P1;
-    HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
-
-  /* USER CODE BEGIN OCTOSPI1_MspInit 1 */
-
-  /* USER CODE END OCTOSPI1_MspInit 1 */
-  }
 }
 
 void HAL_OSPI_MspDeInit(OSPI_HandleTypeDef* ospiHandle)
 {
 
-  if(ospiHandle->Instance==OCTOSPI1)
-  {
-  /* USER CODE BEGIN OCTOSPI1_MspDeInit 0 */
+    if (ospiHandle->Instance == OCTOSPI1) {
+        /* USER CODE BEGIN OCTOSPI1_MspDeInit 0 */
 
-  /* USER CODE END OCTOSPI1_MspDeInit 0 */
-    /* Peripheral clock disable */
-    __HAL_RCC_OCTOSPIM_CLK_DISABLE();
-    __HAL_RCC_OSPI1_CLK_DISABLE();
+        /* USER CODE END OCTOSPI1_MspDeInit 0 */
+          /* Peripheral clock disable */
+        __HAL_RCC_OCTOSPIM_CLK_DISABLE();
+        __HAL_RCC_OSPI1_CLK_DISABLE();
 
-    /**OCTOSPI1 GPIO Configuration
-    PF6     ------> OCTOSPIM_P1_IO3
-    PF7     ------> OCTOSPIM_P1_IO2
-    PF8     ------> OCTOSPIM_P1_IO0
-    PF9     ------> OCTOSPIM_P1_IO1
-    PF10     ------> OCTOSPIM_P1_CLK
-    PG6     ------> OCTOSPIM_P1_NCS
-    */
-    HAL_GPIO_DeInit(GPIOF, GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9
-                          |GPIO_PIN_10);
+        /**OCTOSPI1 GPIO Configuration
+        PF6     ------> OCTOSPIM_P1_IO3
+        PF7     ------> OCTOSPIM_P1_IO2
+        PF8     ------> OCTOSPIM_P1_IO0
+        PF9     ------> OCTOSPIM_P1_IO1
+        PF10     ------> OCTOSPIM_P1_CLK
+        PG6     ------> OCTOSPIM_P1_NCS
+        */
+        HAL_GPIO_DeInit(GPIOF, GPIO_PIN_6 | GPIO_PIN_7 | GPIO_PIN_8 | GPIO_PIN_9
+                              | GPIO_PIN_10);
 
-    HAL_GPIO_DeInit(GPIOG, GPIO_PIN_6);
+        HAL_GPIO_DeInit(GPIOG, GPIO_PIN_6);
 
-  /* USER CODE BEGIN OCTOSPI1_MspDeInit 1 */
+        /* USER CODE BEGIN OCTOSPI1_MspDeInit 1 */
 
-  /* USER CODE END OCTOSPI1_MspDeInit 1 */
-  }
+        /* USER CODE END OCTOSPI1_MspDeInit 1 */
+    }
 }
 
 /* USER CODE BEGIN 1 */
@@ -173,7 +168,7 @@ void HAL_OSPI_MspDeInit(OSPI_HandleTypeDef* ospiHandle)
  *	说    明: 无
  *************************************************************************************************/
 
-int8_t OSPI_W25Qxx_Init(void)
+uint8_t OSPI_W25Qxx_Init(void)
 {
     w25qxxID = OSPI_W25Qxx_ReadID(); // 读取器件ID
     if (w25qxxID == W25Qxx_FLASH_ID) // 进行匹配
@@ -195,7 +190,7 @@ int8_t OSPI_W25Qxx_Init(void)
  *	说    明: 每一次通信都应该调用此函数，等待通信结束，避免错误的操作
  ******************************************************************************************LXB*****/
 
-int8_t OSPI_W25Qxx_AutoPollingMemReady(void)
+uint8_t OSPI_W25Qxx_AutoPollingMemReady(void)
 {
     OSPI_RegularCmdTypeDef sCommand; // OSPI传输配置
     OSPI_AutoPollingTypeDef sConfig; // 轮询比较相关配置参数
@@ -288,7 +283,7 @@ uint32_t OSPI_W25Qxx_ReadID(void)
  *	说    明: 无
  **************************************************************************************************/
 
-int8_t OSPI_W25Qxx_MemoryMappedMode(void)
+uint8_t OSPI_W25Qxx_MemoryMappedMode(void)
 {
     OSPI_RegularCmdTypeDef sCommand;        // QSPI传输配置
     OSPI_MemoryMappedTypeDef sMemMappedCfg; // 内存映射访问参数
@@ -419,7 +414,7 @@ int8_t OSPI_W25Qxx_WriteEnable(void)
  *
  **************************************************************************************************/
 
-int8_t OSPI_W25Qxx_SectorErase(uint32_t SectorAddress)
+uint8_t OSPI_W25Qxx_SectorErase(uint32_t SectorAddress)
 {
     OSPI_RegularCmdTypeDef sCommand; // OSPI传输配置
 
@@ -474,7 +469,7 @@ int8_t OSPI_W25Qxx_SectorErase(uint32_t SectorAddress)
  *
  *************************************************************************************************/
 
-int8_t OSPI_W25Qxx_BlockErase_32K(uint32_t SectorAddress)
+uint8_t OSPI_W25Qxx_BlockErase_32K(uint32_t SectorAddress)
 {
     OSPI_RegularCmdTypeDef sCommand; // OSPI传输配置
 
@@ -529,7 +524,7 @@ int8_t OSPI_W25Qxx_BlockErase_32K(uint32_t SectorAddress)
  *				 4.实际使用建议使用64K擦除，擦除的时间最快
  *
  **************************************************************************************************/
-int8_t OSPI_W25Qxx_BlockErase_64K(uint32_t SectorAddress)
+uint8_t OSPI_W25Qxx_BlockErase_64K(uint32_t SectorAddress)
 {
     OSPI_RegularCmdTypeDef sCommand; // OSPI传输配置
 
@@ -583,7 +578,7 @@ int8_t OSPI_W25Qxx_BlockErase_64K(uint32_t SectorAddress)
  *				 3.flash使用的时间越长，擦除所需时间也会越长
  *
  *************************************************************************************************/
-int8_t OSPI_W25Qxx_ChipErase(void)
+uint8_t OSPI_W25Qxx_ChipErase(void)
 {
     OSPI_RegularCmdTypeDef sCommand; // OSPI传输配置
     OSPI_AutoPollingTypeDef sConfig; // 轮询比较相关配置参数
@@ -660,7 +655,7 @@ int8_t OSPI_W25Qxx_ChipErase(void)
  *				 5.在数据写入之前，请务必完成擦除操作
  *
  ***********************************************************************************************************/
-int8_t OSPI_W25Qxx_WritePage(uint8_t* pBuffer, uint32_t WriteAddr, uint16_t NumByteToWrite)
+uint8_t OSPI_W25Qxx_WritePage(uint8_t* pBuffer, uint32_t WriteAddr, uint16_t NumByteToWrite)
 {
     OSPI_RegularCmdTypeDef sCommand; // OSPI传输配置
 
@@ -731,7 +726,7 @@ int8_t OSPI_W25Qxx_WritePage(uint8_t* pBuffer, uint32_t WriteAddr, uint16_t NumB
  *
  **********************************************************************************************************/
 
-int8_t OSPI_W25Qxx_WriteBuffer(uint8_t* pBuffer, uint32_t WriteAddr, uint32_t Size)
+uint8_t OSPI_W25Qxx_WriteBuffer(uint8_t* pBuffer, uint32_t WriteAddr, uint32_t Size)
 {
     uint32_t end_addr, current_size, current_addr;
     uint8_t* write_data; // 要写入的数据
@@ -786,7 +781,7 @@ int8_t OSPI_W25Qxx_WriteBuffer(uint8_t* pBuffer, uint32_t WriteAddr, uint32_t Si
  *  LXB
  *****************************************************************************************************************LXB************/
 
-int8_t OSPI_W25Qxx_ReadBuffer(uint8_t* pBuffer, uint32_t ReadAddr, uint32_t NumByteToRead)
+uint8_t OSPI_W25Qxx_ReadBuffer(uint8_t* pBuffer, uint32_t ReadAddr, uint32_t NumByteToRead)
 {
     OSPI_RegularCmdTypeDef sCommand; // OSPI传输配置
 
@@ -844,7 +839,7 @@ uint8_t W25Qxx_ReadBuffer[W25Qxx_NumByteToTest];  //	读数据数组
  *	说    明: 无
  ***************************************************************************************************/
 
-int8_t OSPI_W25Qxx_Test(void) // Flash读写测试
+uint8_t OSPI_W25Qxx_Test(void) // Flash读写测试
 {
     uint32_t i = 0X8000;          // 计数变量
     uint32_t W25Qxx_TestAddr = 0; // 测试地址

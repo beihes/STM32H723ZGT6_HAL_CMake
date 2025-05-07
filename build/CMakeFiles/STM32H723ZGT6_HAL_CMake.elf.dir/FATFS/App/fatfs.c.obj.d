@@ -70,7 +70,6 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj: \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/stdio.h \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
  D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/sys/stdio.h \
- D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target/bsp_driver_sd.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/FreeRTOSConfig.h \
@@ -86,5 +85,14 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj: \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src/ff_gen_drv.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src/diskio.h \
  D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src/ff.h \
- D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target/sd_diskio.h \
- D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target/user_diskio.h
+ D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target/user_diskio.h \
+ D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/usart.h \
+ D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Core\Inc/main.h \
+ D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+ D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/stdlib.h \
+ D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/machine/stdlib.h \
+ D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/alloca.h \
+ D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/string.h \
+ D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/sys/_locale.h \
+ D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/strings.h \
+ D:/ToolPath/ARM-NO~1/BASE_F~1/14EFD8~1.2RE/arm-none-eabi/include/sys/string.h

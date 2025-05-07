@@ -68,10 +68,14 @@ include_directories(
     Drivers/STM32H7xx_HAL_Driver/Inc/Legacy
     FATFS/App
     FATFS/Target
+    Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc
+    Middlewares/ST/STM32_USB_Device_Library/Core/Inc
     Middlewares/Third_Party/Fatfs/src
     Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
     Middlewares/Third_Party/FreeRTOS/Source/include
-    Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F)
+    Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
+    USB_DEVICE/App
+    USB_DEVICE/Target)
 
 add_definitions(
     -DDEBUG 
@@ -88,14 +92,16 @@ file(GLOB_RECURSE SOURCES
     "Drivers/STM32H7xx_HAL_Driver/Src/*.c"
     "FATFS/App/*.c"
     "FATFS/Target/*.c"
+    "Middlewares/ST/STM32_USB_Device_Library/*.c"
     "Middlewares/Third_Party/Fatfs/*.c"
     "Middlewares/Third_Party/FreeRTOS/*.c"
+    "USB_DEVICE/App/*.c"
+    "USB_DEVICE/Target/*.c"
 )
 
 set(LINKER_SCRIPT
     ${CMAKE_SOURCE_DIR}/STM32H723ZGTX_FLASH.ld
-
-    # ${CMAKE_SOURCE_DIR}/STM32H7xx/Source/STM32H723ZGTX_RAM.ld
+    # ${CMAKE_SOURCE_DIR}/STM32H723ZGTX_RAM.ld
 )
 
 add_link_options(-mfloat-abi=hard -mfpu=fpv5-d16)

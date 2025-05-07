@@ -840,38 +840,10 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.s"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\App\fatfs.c -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\App\fatfs.c.s
 
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.c
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
-	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\bsp_driver_sd.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\bsp_driver_sd.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target\bsp_driver_sd.c
-
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.i"
-	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target\bsp_driver_sd.c > CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\bsp_driver_sd.c.i
-
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.s"
-	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target\bsp_driver_sd.c -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\bsp_driver_sd.c.s
-
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/sd_diskio.c
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj"
-	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\sd_diskio.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\sd_diskio.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target\sd_diskio.c
-
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.i"
-	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target\sd_diskio.c > CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\sd_diskio.c.i
-
-CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.s"
-	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target\sd_diskio.c -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\sd_diskio.c.s
-
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/user_diskio.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\user_diskio.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\FATFS\Target\user_diskio.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\FATFS\Target\user_diskio.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.i: cmake_force
@@ -885,7 +857,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.s: cmake_f
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\diskio.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\diskio.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src\diskio.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.i: cmake_force
@@ -899,7 +871,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/dis
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\ff.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\ff.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src\ff.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.i: cmake_force
@@ -913,7 +885,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\ff_gen_drv.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\ff_gen_drv.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src\ff_gen_drv.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_gen_drv.c.i: cmake_force
@@ -927,7 +899,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff_
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/cc936.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/cc936.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/option/cc936.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/cc936.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/cc936.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/cc936.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/cc936.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\option\cc936.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\option\cc936.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src\option\cc936.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/cc936.c.i: cmake_force
@@ -941,7 +913,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/opt
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/syscall.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/syscall.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/option/syscall.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/syscall.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/syscall.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/syscall.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/syscall.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\option\syscall.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\Fatfs\src\option\syscall.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\Fatfs\src\option\syscall.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/option/syscall.c.i: cmake_force
@@ -955,7 +927,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/opt
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
@@ -969,7 +941,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -983,7 +955,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -997,7 +969,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -1011,7 +983,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -1025,7 +997,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -1039,7 +1011,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -1053,7 +1025,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -1067,7 +1039,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -1081,7 +1053,7 @@ CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Sour
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/flags.make
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	D:\ToolPath\ARM-NO~1\BASE_F~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -1149,8 +1121,6 @@ STM32H723ZGT6_HAL_CMake_elf_OBJECTS = \
 "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj" \
 "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj" \
 "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj" \
-"CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj" \
-"CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj" \
 "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj" \
 "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj" \
 "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj" \
@@ -1226,8 +1196,6 @@ STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj
-STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
-STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj
@@ -1247,7 +1215,7 @@ STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewa
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/build.make
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/objects1.rsp
 STM32H723ZGT6_HAL_CMake.elf: CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking C executable STM32H723ZGT6_HAL_CMake.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MyCode\VSCode\STM32\STM32H723ZGT6\STM32H723ZGT6_HAL_CMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable STM32H723ZGT6_HAL_CMake.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\STM32H723ZGT6_HAL_CMake.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/build/STM32H723ZGT6_HAL_CMake.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/build/STM32H723ZGT6_HAL_CMake.bin"

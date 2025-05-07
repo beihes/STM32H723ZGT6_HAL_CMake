@@ -35,10 +35,11 @@
 /* Includes ------------------------------------------------------------------*/
 #include <string.h>
 #include "ff_gen_drv.h"
+#include "octospi.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
-
+#define OCTOSPI1_FLASH		0     // 外部SPI Flash
 /* Private variables ---------------------------------------------------------*/
 /* Disk status */
 static volatile DSTATUS Stat = STA_NOINIT;
@@ -82,6 +83,13 @@ DSTATUS USER_initialize (
 {
   /* USER CODE BEGIN INIT */
     Stat = STA_NOINIT;
+    switch (pdrv) {
+    case OCTOSPI1_FLASH:
+        Stat &= ~OSPI_W25Qxx_Init();
+        break;
+    default:
+        break;
+    }
     return Stat;
   /* USER CODE END INIT */
 }
@@ -97,6 +105,13 @@ DSTATUS USER_status (
 {
   /* USER CODE BEGIN STATUS */
     Stat = STA_NOINIT;
+    switch (pdrv) {
+    case OCTOSPI1_FLASH:
+        Stat &= ~OSPI_W25Qxx_Init();
+        break;
+    default:
+        break;
+    }
     return Stat;
   /* USER CODE END STATUS */
 }
@@ -117,7 +132,17 @@ DRESULT USER_read (
 )
 {
   /* USER CODE BEGIN READ */
-    return RES_OK;
+    DRESULT res = RES_PARERR;
+    switch (pdrv)
+    {
+    case OCTOSPI1_FLASH:
+        OSPI_W25Qxx_ReadBuffer(buff, sector << 12, count << 12); // 以4K字节为单位
+        res = RES_OK;
+        break;
+    default:
+        break;
+    }
+    return res;
   /* USER CODE END READ */
 }
 
@@ -138,8 +163,23 @@ DRESULT USER_write (
 )
 {
   /* USER CODE BEGIN WRITE */
-  /* USER CODE HERE */
-    return RES_OK;
+      /* USER CODE HERE */
+    DRESULT res = RES_PARERR;
+    uint32_t writerAddr;
+    if (!count) {
+        return res;
+    }
+    switch (pdrv) {
+    case OCTOSPI1_FLASH:
+        writerAddr = sector << 12; // 以4K字节为单位
+        OSPI_W25Qxx_SectorErase(writerAddr);
+        OSPI_W25Qxx_WriteBuffer((uint8_t*)buff, writerAddr, count << 12);
+        res = RES_OK;
+        break;
+    default:
+        break;
+    }
+    return res;
   /* USER CODE END WRITE */
 }
 #endif /* _USE_WRITE == 1 */
@@ -160,6 +200,25 @@ DRESULT USER_ioctl (
 {
   /* USER CODE BEGIN IOCTL */
     DRESULT res = RES_ERROR;
+    switch (pdrv) {
+    case OCTOSPI1_FLASH:
+        switch (cmd) {
+        case GET_SECTOR_COUNT:
+            *(DWORD*)buff = 2048; // 总的扇区数
+            break;
+        case GET_SECTOR_SIZE:
+            *(WORD*)buff = 4096; // 定义一个扇区大小为4K
+            break;
+        case GET_BLOCK_SIZE:
+            *(DWORD*)buff = 65536; // 定义一个块大小为64K
+        default:
+            break;
+        }
+        res = RES_OK;
+        break;
+    default:
+        break;
+    }
     return res;
   /* USER CODE END IOCTL */
 }

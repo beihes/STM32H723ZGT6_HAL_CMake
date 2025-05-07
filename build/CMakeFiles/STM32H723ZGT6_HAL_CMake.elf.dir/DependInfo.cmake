@@ -31,10 +31,14 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/App"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target"
+  "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"
+  "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/include"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+  "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/USB_DEVICE/App"
+  "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/USB_DEVICE/Target"
   )
 
 # The set of dependency files which are needed:
@@ -93,8 +97,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj" "gcc" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c.obj.d"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj" "gcc" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj.d"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/App/fatfs.c" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj" "gcc" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/App/fatfs.c.obj.d"
-  "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/bsp_driver_sd.c" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj" "gcc" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/bsp_driver_sd.c.obj.d"
-  "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/sd_diskio.c" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj" "gcc" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/sd_diskio.c.obj.d"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/FATFS/Target/user_diskio.c" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj" "gcc" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/FATFS/Target/user_diskio.c.obj.d"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/diskio.c" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj" "gcc" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/diskio.c.obj.d"
   "D:/MyCode/VSCode/STM32/STM32H723ZGT6/STM32H723ZGT6_HAL_CMake/Middlewares/Third_Party/Fatfs/src/ff.c" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj" "gcc" "CMakeFiles/STM32H723ZGT6_HAL_CMake.elf.dir/Middlewares/Third_Party/Fatfs/src/ff.c.obj.d"
