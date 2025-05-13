@@ -30,6 +30,7 @@
 #include "octospi.h"
 #include "rtc.h"
 #include "usart.h"
+#include "w25qxx.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,8 +91,8 @@ void MX_FREERTOS_Init(void) {
     rtcDate = Get_Build_Date();
     rtcTime = Get_Build_TIME();
     Set_RTC_Start_Time(rtcDate, rtcTime);
-    if (OSPI_W25Qxx_Init() == OSPI_W25Qxx_OK) {
-        if (OSPI_W25Qxx_Test() != OSPI_W25Qxx_OK) {
+    if (OSPI1_W25Qxx_Init() == OSPI_W25Qxx_OK) {
+        if (OSPI1_W25Qxx_Test() != OSPI_W25Qxx_OK) {
             USART1_Printf("w25qxx测试不通过\r\n");
         }
     }

@@ -26,7 +26,6 @@
 #include "memorymap.h"
 #include "octospi.h"
 #include "rtc.h"
-#include "sdmmc.h"
 #include "spi.h"
 #include "usart.h"
 #include "gpio.h"
@@ -84,14 +83,6 @@ int main(void)
   /* MPU Configuration--------------------------------------------------------*/
   MPU_Config();
 
-  /* Enable the CPU Cache */
-
-  /* Enable I-Cache---------------------------------------------------------*/
-  SCB_EnableICache();
-
-  /* Enable D-Cache---------------------------------------------------------*/
-  SCB_EnableDCache();
-
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
@@ -114,7 +105,6 @@ int main(void)
   MX_BDMA_Init();
   MX_USART1_UART_Init();
   MX_OCTOSPI1_Init();
-  MX_SDMMC1_SD_Init();
   MX_FATFS_Init();
   MX_SPI6_Init();
   MX_RTC_Init();

@@ -36,6 +36,7 @@
 #include <string.h>
 #include "ff_gen_drv.h"
 #include "octospi.h"
+#include "w25qxx.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
@@ -85,7 +86,7 @@ DSTATUS USER_initialize (
     Stat = STA_NOINIT;
     switch (pdrv) {
     case OCTOSPI1_FLASH:
-        Stat &= ~OSPI_W25Qxx_Init();
+        Stat &= ~OSPI1_W25Qxx_Init();
         break;
     default:
         break;
@@ -107,7 +108,7 @@ DSTATUS USER_status (
     Stat = STA_NOINIT;
     switch (pdrv) {
     case OCTOSPI1_FLASH:
-        Stat &= ~OSPI_W25Qxx_Init();
+        Stat &= ~OSPI1_W25Qxx_Init();
         break;
     default:
         break;
@@ -136,7 +137,7 @@ DRESULT USER_read (
     switch (pdrv)
     {
     case OCTOSPI1_FLASH:
-        OSPI_W25Qxx_ReadBuffer(buff, sector << 12, count << 12); // 以4K字节为单位
+        OSPI1_W25Qxx_ReadBuffer(buff, sector << 12, count << 12); // 以4K字节为单位
         res = RES_OK;
         break;
     default:
@@ -172,8 +173,8 @@ DRESULT USER_write (
     switch (pdrv) {
     case OCTOSPI1_FLASH:
         writerAddr = sector << 12; // 以4K字节为单位
-        OSPI_W25Qxx_SectorErase(writerAddr);
-        OSPI_W25Qxx_WriteBuffer((uint8_t*)buff, writerAddr, count << 12);
+        OSPI1_W25Qxx_SectorErase(writerAddr);
+        OSPI1_W25Qxx_WriteBuffer((uint8_t*)buff, writerAddr, count << 12);
         res = RES_OK;
         break;
     default:

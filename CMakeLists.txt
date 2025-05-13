@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.20)
 # 环境选择
 if(WIN32)
     MESSAGE(STATUS "Now is windows!")
-    set(TOOLPATH "D:/ToolPath/Arm-None-Eabi-Gcc/Base_File/14.2 rel1/bin/arm-none-eabi-")
+    set(TOOLPATH "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-")
     set(CMAKE_C_COMPILER ${TOOLPATH}gcc.exe)
     set(CMAKE_CXX_COMPILER ${TOOLPATH}g++.exe)
     set(CMAKE_ASM_COMPILER ${TOOLPATH}gcc.exe)
